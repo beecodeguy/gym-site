@@ -1,11 +1,5 @@
 import React from "react";
-import { Facebook, Twitter, Instagram } from "lucide-react";
-import {
-  FaFacebook,
-  FaInstagram,
-  FaTwitter,
-  FaXTwitter,
-} from "react-icons/fa6";
+import { FaFacebook, FaInstagram, FaXTwitter } from "react-icons/fa6";
 
 const Team = () => {
   const trainers = [
