@@ -3,12 +3,15 @@ import { Mail, MapPin, Phone } from "lucide-react";
 import Link from "next/link";
 import { SocialLinks } from "./social-links";
 
-interface FooterProps {
+interface DeveloperBlockProps {
   developerName: string;
   developerUrl: string;
 }
 
-const DeveloperBlock = ({ developerName, developerUrl }) => {
+const DeveloperBlock = ({
+  developerName,
+  developerUrl,
+}: DeveloperBlockProps) => {
   const currentYear = new Date().getFullYear();
 
   return (
