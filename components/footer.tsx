@@ -44,7 +44,7 @@ export default function Footer() {
       {/* Contact Info Bar */}
       <div className="border-b border-gray-800">
         <div className="container mx-auto px-4 py-6">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid place-items-start grid-cols-1 md:grid-cols-3 gap-6">
             <div className="flex items-center">
               <MapPin className="text-orange-500 mr-3" size={24} />
               <span>333 Middle Winchendon Rd, Rindge, NH 03461</span>
@@ -101,11 +101,6 @@ export default function Footer() {
                   Classes
                 </a>
               </li>
-              <li>
-                <a href="#" className="hover:text-orange-500 transition-colors">
-                  Contact
-                </a>
-              </li>
             </ul>
           </div>
 
@@ -113,16 +108,6 @@ export default function Footer() {
           <div>
             <h3 className="text-white text-xl font-semibold mb-6">Support</h3>
             <ul className="space-y-3">
-              <li>
-                <a href="#" className="hover:text-orange-500 transition-colors">
-                  Login
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-orange-500 transition-colors">
-                  My account
-                </a>
-              </li>
               <li>
                 <a href="#" className="hover:text-orange-500 transition-colors">
                   Subscribe
